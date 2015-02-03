@@ -1,0 +1,24 @@
+.global-nav {
+	width: 604px;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	li {
+		color: white;
+		display: inline-block;
+		border-bottom: 2px solid transparent;
+		font-size: 18px;
+		padding: 5px 8px;
+		&.active, &:hover {
+			// font-weight: 400;
+			border-bottom-color: white;
+			transition: border-bottom-color 0.5s;
+		}
+		&:not(:last-child) {
+			margin-right: 58px;
+		}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

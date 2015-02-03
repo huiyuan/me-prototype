@@ -1,0 +1,49 @@
+#profile-header {
+	width: 100%;
+	background: linear-gradient(to right, #00a1db, #00adb3);
+	height: 190px;
+	padding: 100px 0 30px ;
+
+	// top card
+	.top-card-container {
+		width: 798px;
+		margin: auto;
+	}
+	.top-card {
+		margin-left: -98px;
+		color: white;
+
+		h1 {
+			font-size: 36px;
+		}
+		.inline-block {
+			vertical-align: middle;
+		}
+
+		.profile-image {
+			margin-right: 46px;
+			border: 2px solid white;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+		}
+
+		.view-profile {
+			background: none;
+			border: 1px solid white;
+			border-radius: 2px;
+			color: white;
+			padding: 5px 8px;
+			font-size: 16px;
+		}
+		.greeting {
+			width: 500px;
+			.user-name {
+				font-weight: 400;
+			}
+		}
+	}
+
+	// global nav
+	@import 'nav';
+}
